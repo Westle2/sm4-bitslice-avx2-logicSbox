@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <string.h>
+#include "sm4.h"
+#include "sm4_avx2.h"
+#include "sm4_bitslice.h"
 
 /* =======================================================
    External Functions
