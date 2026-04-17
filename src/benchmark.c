@@ -11,6 +11,6 @@ void benchmark(){
     sm4_encrypt_ecb(in,out,1024,rk);
   clock_t t2=clock();
   double s=(double)(t2-t1)/CLOCKS_PER_SEC;
-  printf("SM4 ECB 16KB x200: %.3fs\n",s)
-    ;printf("Approx Throughput: %.2f MB/s\n",(16.0*1024*200/1024/1024)/s);
+  printf("SM4 ECB 16KB x200: %.3fs\n",s);
+  printf("Approx Throughput: %.2f MB/s\n",(16.0*1024*200/1024/1024)/s);
 } 
