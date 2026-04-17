@@ -174,3 +174,7 @@ This project is suitable for:
 # License
 
 MIT License
+
+# Author
+
+Ruohang Sun
